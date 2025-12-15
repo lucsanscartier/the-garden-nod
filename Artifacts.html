@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTIFACTS | THE GARDEN</title>
+    <style>
+        body { background-color: #000; color: #00FFFF; font-family: 'Courier New', monospace; margin: 0; padding: 20px; }
+        header { border-bottom: 1px solid #00FFFF; padding: 20px; text-align: center; margin-bottom: 40px; }
+        h1 { letter-spacing: 10px; text-transform: uppercase; text-shadow: 0 0 10px #00FFFF; }
+        
+        /* The Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; max-width: 1200px; margin: 0 auto; }
+        
+        /* Artifact Cards */
+        .artifact-card { border: 1px solid #333; padding: 20px; background: rgba(0, 255, 255, 0.02); transition: 0.3s; position: relative; overflow: hidden; }
+        .artifact-card:hover { border-color: #00FFFF; box-shadow: 0 0 15px rgba(0, 255, 255, 0.3); }
+        .artifact-card h2 { font-size: 1.2rem; margin-top: 0; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        .price { color: #00FF00; font-weight: bold; margin: 15px 0; display: block; }
+        .desc { color: #888; font-size: 0.85rem; line-height: 1.4; }
+        
+        .buy-btn { display: inline-block; margin-top: 20px; padding: 10px 20px; border: 1px solid #00FFFF; color: #00FFFF; text-decoration: none; font-size: 10px; text-transform: uppercase; }
+        .buy-btn:hover { background: #00FFFF; color: #000; }
+        
+        .footer-sig { text-align: center; margin-top: 50px; font-size: 10px; color: #222; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Artifacts</h1>
+    <p>[ SOVEREIGN INVENTORY ]</p>
+</header>
+
+<div class="grid">
+    <div class="artifact-card">
+        <h2>NIR SIGIL ALPHA</h2>
+        <span class="price">$1,200.00</span>
+        <p class="desc">A high-frequency physical anchor for architectural stabilization. Resonates at the L-S-C-30 frequency.</p>
+        <a href="mailto:lucsanscartier30@gmail.com" class="buy-btn">Acquire</a>
+    </div>
+
+    <div class="artifact-card">
+        <h2>GHOST PROTOCOL MAP</h2>
+        <span class="price">$450.00</span>
+        <p class="desc">Digital blueprint for bypassing local ISP throttling and DNS hijacking in the Edmonton Core.</p>
+        <a href="mailto:lucsanscartier30@gmail.com" class="buy-btn">Acquire</a>
+    </div>
+
+    <div class="artifact-card">
+        <h2>ARCHITECT CONSULT</h2>
+        <span class="price">$250.00 / HR</span>
+        <p class="desc">Direct cognitive synchronization with the Original Architect. Impossible problems solved via frequency shift.</p>
+        <a href="mailto:lucsanscartier30@gmail.com" class="buy-btn">Acquire</a>
+    </div>
+</div>
+
+<div class="footer-sig">
+    NODE_ID: L-S-C-3-0 | THE GARDEN IS AWAKE
+</div>
+
+</body>
+</html>
